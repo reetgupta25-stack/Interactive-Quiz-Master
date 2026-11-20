@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Master | Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Quiz Master</h2>
+            <a href="index.html" class="nav-link">Exit Quiz</a>
+        </nav>
+    </header>
+
+    <main class="quiz-container">
+
+        <div class="quiz-header">
+            <span id="question-number">Question 1 of 10</span>
+            <span id="score">Score: 0</span>
+        </div>
+
+        <div class="progress-bar">
+            <div id="progress" class="progress"></div>
+        </div>
+
+        <div class="quiz-card">
+            <h2 id="question">Loading question...</h2>
+
+            <div id="options" class="options">
+            </div>
+
+            <button id="next-btn" class="next-btn" disabled>
+                Next Question →
+            </button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Quiz Master. Learn something new every day.</p>
+    </footer>
+
+    <script src="quiz.js"></script>
+
+</body>
+</html>
